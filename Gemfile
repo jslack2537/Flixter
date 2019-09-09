@@ -29,6 +29,8 @@ gem 'popper_js', '~> 1.11.1'
 
 gem 'bootstrap', '4.0.0.alpha6'
 
+gem 'font-awesome-rails'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
