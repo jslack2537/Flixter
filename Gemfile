@@ -29,7 +29,7 @@ gem 'popper_js', '~> 1.11.1'
 
 gem 'bootstrap', '4.0.0.alpha6'
 
-gem 'font-awesome-rails'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 
 gem 'simple_form'
 

@@ -295,7 +295,7 @@ DEPENDENCIES
   devise
   figaro
   fog-aws
-  font-awesome-rails
+  font-awesome-rails (~> 4.7, >= 4.7.0.5)
   jbuilder (~> 2.5)
   jquery-rails
   jquery-ui-rails
