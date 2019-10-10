@@ -2,9 +2,16 @@
 
 <div class="booyah-box col-10 offset-1">
   <h1><%= current_lesson.title %></h1>
-  <p>
+  <p class="float-left">
     <%= current_lesson.subtitle %>
   </p>
+
+<% if current_lesson.next_lesson.present? %>
+  <%= link_to lesson_path(current_lesson.next_lesson), class: 'btn btn-default float-right' do %>
+   <div class="test"> Next Lesson &nbsp; </div>
+    <span class="fa fa-forward"></span>
+  <% end %>
+<% end %>
 
 
   <video id="my-video" class="video-js vjs-big-play-centered vjs-fluid" controls preload="auto" width="auto" height="aut0"
